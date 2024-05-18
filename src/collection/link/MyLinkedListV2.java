@@ -58,7 +58,7 @@ public class MyLinkedListV2 {
         removeNode.item = null;
         removeNode.next = null;
         size--;
-        return removeNode;
+        return removedItem;
     }
 
     public Object get(int index) {
