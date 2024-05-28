@@ -1,6 +1,5 @@
-package collection.map.test.compare;
+package collection.compare;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
 public class SortMain4 {

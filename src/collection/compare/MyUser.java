@@ -1,4 +1,4 @@
-package collection.map.test.compare;
+package collection.compare;
 
 public class MyUser implements Comparable<MyUser>{
     private String id;

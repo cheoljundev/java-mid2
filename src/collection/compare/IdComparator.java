@@ -1,4 +1,4 @@
-package collection.map.test.compare;
+package collection.compare;
 
 import java.util.Comparator;
 

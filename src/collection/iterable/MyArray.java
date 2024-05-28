@@ -1,4 +1,4 @@
-package collection.map.test.iterable;
+package collection.iterable;
 
 import java.util.Iterator;
 
