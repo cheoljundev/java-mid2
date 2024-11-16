@@ -7,8 +7,14 @@ public class NodeMain1 {
         first.next.next = new Node("C");
 
         System.out.println("모든 노드 탐색하기");
-        System.out.println("first.item = " + first.item);
-        System.out.println("first.next.item = " + first.next.item);
-        System.out.println("first.next.next.item = " + first.next.next.item);
+//        System.out.println("first.item = " + first.item);
+//        System.out.println("first.next.item = " + first.next.item);
+//        System.out.println("first.next.next.item = " + first.next.next.item);
+
+        Node x = first;
+        while (x != null) {
+            System.out.println(x.item);
+            x = x.next;
+        }
     }
 }
