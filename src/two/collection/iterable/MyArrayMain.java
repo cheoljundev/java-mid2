@@ -17,5 +17,10 @@ public class MyArrayMain {
 
         System.out.println("iterator.hasNext() = " + iterator.hasNext()); // false, 이터레이터는 일회성이다.
 
+        // for-each 사용
+        // for-each(enhanced for)문은 iterable이 구현된 클래스의 인스턴스에서만 사용이 가능하다.
+        for (Integer value : array) {
+            System.out.println("value = " + value);
+        }
     }
 }
